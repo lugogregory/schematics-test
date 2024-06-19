@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "ui-component",
+  "title": "UI library Component Schema Test",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "The name of the component",
+      "type": "string"
+    },
+    "path": {
+      "description": "Where should be created the file",
+      "type": "string",
+      "format": "path",
+      "x-prompt": "Where should be created the file?",
+      "visible": false
+    }
+  },
+  "required": []
+}
